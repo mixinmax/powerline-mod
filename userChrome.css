@@ -20,7 +20,7 @@
     --fg-light: rgb(254,254,254); --fg-dark: rgb(254,254,254);
     --tab-triangle-correction: -1px;
     --tab-height: 18px; --tab-icon-size: 10px; --tab-strip-margin: -11px; --tab-overlap: -5px;
-    --tab-fonts: "Lemon",monospace,"Dejavu Sans"; --tab-font-size: 7pt;
+    --tab-fonts: "Lemon",monospace,"Dejavu Sans"; --tab-font-size: 8pt;
     --tab-triangle: block; /* block | none */
 
     /* URL VARIABLES */
@@ -150,11 +150,11 @@
         height: var(--tab-height) !important; min-height: var(--tab-height)!important;
         margin: 0 var(--tab-strip-margin) !important;
         background: var(--bg-dark) !important;
-        margin-top: -6px !important; /************* TOP BORDER ******************/
+        margin-top: 0px !important; /************* TOP BORDER ******************/
         /* --- Uncomment the line below to attach the url-bar to the tab-bar [EXPERIMENTAL] (Require a line in "#nav-bar" above) --- */
-        margin-left: -70px !important;  /************* padding and border on the left by the maximize shit ************/
+        margin-left: -75px !important;  /************* padding and border on the left by the maximize shit ************/
         padding-left: 65px !important;  /************* padding and border on the left by the maximize shit ************/
-        padding-top: 1px !important;
+        padding-top: 0px !important;
     }
     #TabsToolbar::after { display: none !important; }
     .tabbrowser-tab::before, .tabbrowser-tab::after { background: none !important; }
@@ -167,7 +167,7 @@
       background-image: radial-gradient(35% 100% at 50% 110%, rgba(255,255,255,1) 10%, rgba(186,221,251,0.75) 30%, rgba(117,169,255,1) 40%, rgba(97,139,255,1) 50%, rgba(97,139,255,0) 120%) !important;
       background-position: center bottom 1px;
       background-repeat: no-repeat;
-      background-size: 85% 100%;	
+      background-size: 85% 100%;    
     }
 
     
